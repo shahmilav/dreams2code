@@ -1,7 +1,10 @@
 const template = document.createElement("template");
 
 template.innerHTML = `
-     <div class="col-3">
+<footer>
+<div class="container m-4">
+<div class="row">
+ <div class="col-3">
                     <img
                       alt=""
                       class="rounded-5 img-thumbnail"
@@ -14,4 +17,8 @@ template.innerHTML = `
                       >
                     </h4>
                   </div>
+</div>
+</div>
+    
+                  </footer>
                   `;
