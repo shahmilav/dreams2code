@@ -1,271 +1,200 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dreams2Code | Empowering Futures Through Technology</title>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900;700;400&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="styles.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-        />
-        <style></style>
-        <!-- Vanta.js & Three.js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
-    </head>
-    <body>
-        <div class="navbar">
-            <a href="index.html" class="logo">
-                <img src="images/Dreams2Code.png" alt="Dreams2Code Logo" style="height: 40px;"/>
-                Dreams2Code
-            </a>
-            <div class="navbar-right">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="team.html">Team</a>
-                </nav>
-                <button
-                    class="hamburger"
-                    id="hamburger-btn"
-                    aria-label="Open menu"
-                >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="hamburger-menu" id="hamburger-menu">
-                    <a href="https://www.instagram.com/dreams2code"
-                        >Instagram</a
-                    >
-                    <a href="https://linktr.ee/dreams2code">Linktree</a>
-                </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/images/Dreams2Code.png" />
+    <title>Dreams2Code | Empowering Futures Through Technology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900;700;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <style></style>
+    <!-- Vanta.js & Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/Dreams2Code.png" alt="Dreams2Code Logo" style="height: 48px;" />
+            Dreams2Code
+        </a>
+        <div class="navbar-right">
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="team.html">Team</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+            <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <a href="https://www.instagram.com/dreams2code">Instagram</a>
+                <a href="https://linktr.ee/dreams2code">Linktree</a>
             </div>
         </div>
-        <div class="hero" id="hero" data-aos="fade-up" data-aos-duration="1200">
-            <div class="hero-bg" id="vanta-bg"></div>
-            <div class="hero-content">
-                <h1>Coding Beyond Abilities<br />Dreaming Beyond Boundaries</h1>
-                <p>
-                    Dreams2Code is an organization in Central NJ dedicated to
-                    teaching children coding through free workshops and events.
-                </p>
-                <div class="hero-buttons">
-                    <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdw40--hwUHmdXSaC-blAXDJyLxotmFSf--7cJtzwj87dJbHQ/viewform"
-                        class="hero-btn hero-btn-primary"
-                        >Join the Team</a
-                    >
-                    <a
-                        href="https://events.mcl.org/event/14239430"
-                        class="hero-btn hero-btn-secondary"
-                        >MCL Classes</a
-                    >
-                    <a
-                        href="https://www.activekids.com/plainsboro-nj/stem/classes/dreams2code-java-coding-2025"
-                        class="hero-btn hero-btn-tertiary"
-                        >Plainsboro Classes</a
-                    >
-                </div>
+    </div>
+    <div class="hero" id="hero" data-aos="fade-up" data-aos-duration="1200">
+        <div class="hero-bg" id="vanta-bg"></div>
+        <div class="hero-content">
+            <h1>Coding Beyond Abilities<br />Dreaming Beyond Boundaries</h1>
+            <p>
+                Dreams2Code is an organization in Central NJ dedicated to
+                teaching children coding through free workshops and events.
+            </p>
+            <div class="hero-buttons">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdw40--hwUHmdXSaC-blAXDJyLxotmFSf--7cJtzwj87dJbHQ/viewform"
+                    class="hero-btn hero-btn-primary">Join the Team</a>
+                <a href="https://events.mcl.org/event/14239430" class="hero-btn hero-btn-secondary">MCL Classes</a>
+                <a href="https://www.activekids.com/plainsboro-nj/stem/classes/dreams2code-java-coding-2025"
+                    class="hero-btn hero-btn-tertiary">Plainsboro Classes</a>
             </div>
         </div>
-        <!-- Photo Placeholders Row -->
-        <div
-            style="
-                width: 100%;
-                max-width: 1100px;
-                margin: 32px auto 16px auto;
-                display: flex;
-                gap: 24px;
-                flex-wrap: nowrap;
-            "
-            data-aos="fade-up"
-            data-aos-delay="200"
-        >
-            <div
-                style="
-                    flex: 1 1 0;
-                    height: 120px;
-                    background: #22304a;
-                    border-radius: 12px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    box-shadow: 0 2px 16px rgba(41, 86, 163, 0.13);
-                    overflow: hidden;
-                "
-            >
-                <img
-                    src="images/teaching1.png"
-                    alt="Teaching at Boys and Girls Club"
-                    style="width: 100%; height: 100%; object-fit: cover"
-                />
-            </div>
-            <div
-                style="
-                    flex: 1 1 0;
-                    height: 120px;
-                    background: #22304a;
-                    border-radius: 12px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    box-shadow: 0 2px 16px rgba(41, 86, 163, 0.13);
-                    overflow: hidden;
-                "
-            >
-                <img
-                    src="images/teaching4.png"
-                    alt="Teaching at Boys and Girls Club (3)"
-                    style="width: 100%; height: 100%; object-fit: cover"
-                />
-            </div>
-            <div
-                style="
-                    flex: 1 1 0;
-                    height: 120px;
-                    background: #22304a;
-                    border-radius: 12px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    box-shadow: 0 2px 16px rgba(41, 86, 163, 0.13);
-                    overflow: hidden;
-                "
-            >
-                <img
-                    src="images/teaching2.png"
-                    alt="Teaching at Boys and Girls Club (2)"
-                    style="width: 100%; height: 100%; object-fit: cover"
-                />
-            </div>
-            <div
-                style="
-                    flex: 1 1 0;
-                    height: 120px;
-                    background: #22304a;
-                    border-radius: 12px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    box-shadow: 0 2px 16px rgba(41, 86, 163, 0.13);
-                    overflow: hidden;
-                "
-            >
-                <img
-                    src="images/teaching3.png"
-                    alt="Teaching at MCL"
-                    style="width: 100%; height: 100%; object-fit: cover"
-                />
-            </div>
-        </div>
-        <!-- Stats Section -->
-        <!-- Our Impact Heading -->
-        <h2
-            class="impact-heading"
-            style="
+    </div>
+    
+    <!-- Our Impact Heading -->
+    <h2 class="impact-heading" style="
                 text-align: center;
                 margin-top: 48px;
                 color: #4f8cff;
                 font-size: 2.5rem;
                 font-weight: 900;
-            "
-        >
-            Our Impact
-        </h2>
+            ">
+        Our Impact
+    </h2>
 
-        <!-- Stats Section -->
+    <!-- Stats Section -->
 
-        <div class="stats-section" data-aos="fade-up" data-aos-delay="400">
-            <div class="stats-cards">
-                <div class="stat-card" data-aos="zoom-in" data-aos-delay="500">
-                    <div class="stat-number">400+</div>
-                    <div class="stat-label">students</div>
-                </div>
-                <div class="stat-card" data-aos="zoom-in" data-aos-delay="600">
-                    <div class="stat-number">30</div>
-                    <div class="stat-label">teachers</div>
-                </div>
-                <div class="stat-card" data-aos="zoom-in" data-aos-delay="700">
-                    <div class="stat-number">5</div>
-                    <div class="stat-label">websites &amp; projects</div>
-                </div>
+    <div class="stats-section" data-aos="fade-up" data-aos-delay="400">
+        <div class="stats-cards">
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="stat-number">400+</div>
+                <div class="stat-label">students</div>
+            </div>
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="600">
+                <div class="stat-number">30</div>
+                <div class="stat-label">teachers</div>
+            </div>
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="700">
+                <div class="stat-number">5</div>
+                <div class="stat-label">websites &amp; projects</div>
             </div>
         </div>
-        <div
-            class="section"
-            id="whatwedo"
-            data-aos="fade-up"
-            data-aos-delay="800"
-        >
-            <p class="text-4xl" style="text-align: center;">
-                Dreams2Code is a nonprofit dedicated to bridging the digital
-                divide. We provide free and low-cost coding classes, mentorship,
-                and resources to underserved communities. Our mission is to
-                unlock opportunities and inspire innovation by making technology
-                education accessible to all.
+    </div>
+    
+    <!-- Gallery Preview -->
+    <section class="gallery-preview" data-aos="fade-up" data-aos-delay="650">
+        <div class="gallery-preview-header">
+            <span class="gallery-preview-eyebrow">See Us In Action</span>
+            <h2>Take a closer look at our gallery</h2>
+            <p>
+                Step inside our workshops and events to see the curiosity,
+                collaboration, and breakthroughs happening every week.
             </p>
         </div>
+        <div class="gallery-preview-grid">
+            <div class="preview-card">
+                <img src="images/teaching1.png" alt="Students collaborating during a Dreams2Code workshop" />
+                <span>Hands-on Workshops</span>
+            </div>
+            <div class="preview-card">
+                <img src="images/teaching3.png" alt="Dreams2Code instructors celebrating with students" />
+                <span>Community Impact</span>
+            </div>
+            <div class="preview-card">
+                <img src="images/teaching2.png" alt="Mentor guiding a student through a coding challenge" />
+                <span>Mentorship Moments</span>
+            </div>
+        </div>
+        <div class="gallery-preview-cta">
+            <a href="gallery.html" class="gallery-preview-btn">Visit The Gallery</a>
+        </div>
+    </section>
 
-        <script>
-            // Vanta.js Net effect for hero background
-            window.addEventListener("DOMContentLoaded", function () {
-                VANTA.NET({
-                    el: "#vanta-bg",
-                    mouseControls: true,
-                    touchControls: true,
-                    minHeight: 420.0,
-                    minWidth: 200.0,
-                    scale: 1.0,
-                    scaleMobile: 1.0,
-                    color: 0x1fd1f9,
-                    backgroundColor: 0x162447,
-                    points: 12.0,
-                    maxDistance: 22.0,
-                    spacing: 18.0,
-                });
-            });
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-        <script>
-            // Vanta.js Net effect for hero background
-            window.addEventListener("DOMContentLoaded", function () {
-                VANTA.NET({
-                    el: "#vanta-bg",
-                    mouseControls: true,
-                    touchControls: true,
-                    minHeight: 420.0,
-                    minWidth: 200.0,
-                    scale: 1.0,
-                    scaleMobile: 1.0,
-                    color: 0x1fd1f9,
-                    backgroundColor: 0x162447,
-                    points: 12.0,
-                    maxDistance: 22.0,
-                    spacing: 18.0,
-                });
-                AOS.init({ once: true });
-            });
+    <!-- What We Do Section -->
+    <section
+        class="what-we-do"
+        id="whatwedo"
+        data-aos="fade-up"
+        data-aos-delay="800"
+    >
+        <div class="what-we-do-inner">
+            <span class="what-we-do-eyebrow">What We Do</span>
+            <h2>Bridging the digital divide with real-world coding experiences</h2>
+            <p>
+                Dreams2Code is a nonprofit dedicated to bridging the digital divide. We provide free
+                and low-cost coding classes, mentorship, and resources to underserved communities.
+                Our mission is to unlock opportunities and inspire innovation by making technology
+                education accessible to all.
+            </p>
+            <div class="what-we-do-highlights">
+                <div class="what-we-do-chip">Hands-on workshops &amp; classes</div>
+                <div class="what-we-do-chip">Mentorship from teen leaders</div>
+                <div class="what-we-do-chip">Accessible learning resources</div>
+            </div>
+        </div>
+    </section>
 
-            // Hamburger menu toggle
-            const hamburgerBtn = document.getElementById("hamburger-btn");
-            const hamburgerMenu = document.getElementById("hamburger-menu");
-            hamburgerBtn.addEventListener("click", function () {
-                hamburgerMenu.classList.toggle("open");
+    <script>
+        // Vanta.js Net effect for hero background
+        window.addEventListener("DOMContentLoaded", function () {
+            VANTA.NET({
+                el: "#vanta-bg",
+                mouseControls: true,
+                touchControls: true,
+                minHeight: 420.0,
+                minWidth: 200.0,
+                scale: 1.0,
+                scaleMobile: 1.0,
+                color: 0x1fd1f9,
+                backgroundColor: 0x162447,
+                points: 12.0,
+                maxDistance: 22.0,
+                spacing: 18.0,
             });
-            // Optional: close menu when clicking outside
-            document.addEventListener("click", function (e) {
-                if (
-                    !hamburgerBtn.contains(e.target) &&
-                    !hamburgerMenu.contains(e.target)
-                ) {
-                    hamburgerMenu.classList.remove("open");
-                }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Vanta.js Net effect for hero background
+        window.addEventListener("DOMContentLoaded", function () {
+            VANTA.NET({
+                el: "#vanta-bg",
+                mouseControls: true,
+                touchControls: true,
+                minHeight: 420.0,
+                minWidth: 200.0,
+                scale: 1.0,
+                scaleMobile: 1.0,
+                color: 0x1fd1f9,
+                backgroundColor: 0x162447,
+                points: 12.0,
+                maxDistance: 22.0,
+                spacing: 18.0,
             });
-        </script>
-    </body>
+            AOS.init({ once: true });
+        });
+
+        // Hamburger menu toggle
+        const hamburgerBtn = document.getElementById("hamburger-btn");
+        const hamburgerMenu = document.getElementById("hamburger-menu");
+        hamburgerBtn.addEventListener("click", function () {
+            hamburgerMenu.classList.toggle("open");
+        });
+        // Optional: close menu when clicking outside
+        document.addEventListener("click", function (e) {
+            if (
+                !hamburgerBtn.contains(e.target) &&
+                !hamburgerMenu.contains(e.target)
+            ) {
+                hamburgerMenu.classList.remove("open");
+            }
+        });
+    </script>
+</body>
+
 </html>

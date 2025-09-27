@@ -1,266 +1,248 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dreams2Code | Our Team</title>
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="team.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-        />
-    </head>
-    <body>
-        <div class="navbar">
-            <a href="index.html" class="logo">
-                <img src="images/Dreams2Code.png" alt="Dreams2Code Logo" style="height: 40px;"/>
-                Dreams2Code
-            </a>
-            <div class="navbar-right">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="team.html">Team</a>
-                </nav>
-                <button
-                    class="hamburger"
-                    id="hamburger-btn"
-                    aria-label="Open menu"
-                >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="hamburger-menu" id="hamburger-menu">
-                    <a href="https://www.instagram.com/dreams2code"
-                        >Instagram</a
-                    >
-                    <a href="https://linktr.ee/dreams2code">Linktree</a>
-                </div>
-            </div>
-        </div>
-        <div class="team-section" data-aos="fade-up" data-aos-duration="1200">
-            <div class="team-title" data-aos="fade-down" data-aos-delay="100">
-                Meet Our Team
-            </div>
-            <div class="team-grid" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member">
-                    <div class="team-photo">
-                        <img src="images/team/arjun.webp" alt="Arjun Agarwal" />
-                    </div>
-                    <div class="team-name">Arjun Agarwal</div>
-                    <div class="team-role">Co-President</div>
-                </div>
-                <div class="team-member">
-                    <div class="team-photo">
-                        <img src="images/team/akshat.webp" alt="Akshat Mehta" />
-                    </div>
-                    <div class="team-name">Akshat Mehta</div>
-                    <div class="team-role">Co-President</div>
-                </div>
-                <div class="team-member">
-                    <div class="team-photo">
-                        <img
-                            src="https://placehold.co/96x96?text=MS"
-                            alt="Milav Shah"
-                        />
-                    </div>
-                    <div class="team-name">Milav Shah</div>
-                    <div class="team-role">Director of Technology</div>
-                </div>
-                <div class="team-member">
-                    <div class="team-photo">
-                        <img
-                            src="images/team/pranshu.webp"
-                            alt="Pranshu Desai"
-                        />
-                    </div>
-                    <div
-                        class="team-name"
-                        style="display: flex; align-items: center; gap: 6px"
-                    >
-                        Pranshu Desai
-                    </div>
-                    <div class="team-role">Director of Teaching</div>
-                    <span class="star-tooltip">
-                        <svg
-                            width="18"
-                            height="18"
-                            viewBox="0 0 20 20"
-                            fill="#FFD700"
-                            style="vertical-align: middle"
-                        >
-                            <polygon
-                                points="10,2 12.4,7.5 18.3,7.6 13.6,11.6 15.2,17.3 10,14 4.8,17.3 6.4,11.6 1.7,7.6 7.6,7.5"
-                            />
-                        </svg>
-                        <span class="star-tooltip-text"
-                            >April 2025 Member of the Month</span
-                        >
-                    </span>
-                </div>
 
-                <div class="team-member">
-                    <div class="team-photo">
-                        <img
-                            src="https://placehold.co/96x96?text=RS"
-                            alt="Runbier Sabhlok"
-                        />
-                    </div>
-                    <div class="team-name">Runbier Sabhlok</div>
-                    <div class="team-role">Director of Communications</div>
-                </div>
-                <div class="team-member">
-                    <div class="team-photo">
-                        <img
-                            src="https://placehold.co/96x96?text=RH"
-                            alt="Pranshu Desai"
-                        />
-                    </div>
-                    <div class="team-name">Rohan Hota</div>
-                    <div class="team-role">Director of Marketing</div>
-                </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/images/Dreams2Code.png" />
+    <title>Dreams2Code | Our Team</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="team.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/Dreams2Code.png" alt="Dreams2Code Logo" style="height: 48px;" />
+            Dreams2Code
+        </a>
+        <div class="navbar-right">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="team.html" class="active">Team</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+            <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <a href="https://www.instagram.com/dreams2code">Instagram</a>
+                <a href="https://linktr.ee/dreams2code">Linktree</a>
             </div>
         </div>
-        <!-- Additional Team Members -->
-        <style>
-            .star-tooltip {
-                position: relative;
-                display: inline-block;
-                cursor: pointer;
-            }
-            .star-tooltip-text {
-                visibility: hidden;
-                width: max-content;
-                background: #222c3a;
-                color: #fff;
-                text-align: center;
-                border-radius: 6px;
-                padding: 6px 12px;
-                position: absolute;
-                z-index: 10;
-                bottom: 125%;
-                left: 50%;
-                transform: translateX(-50%);
-                opacity: 0;
-                transition: opacity 0.2s;
-                font-size: 0.95em;
-                white-space: nowrap;
-                box-shadow: 0 2px 8px rgba(30, 60, 114, 0.18);
-            }
-            .star-tooltip:hover .star-tooltip-text,
-            .star-tooltip:focus .star-tooltip-text {
-                visibility: visible;
-                opacity: 1;
-            }
-            .star-tooltip svg {
-                margin-bottom: 1px;
-                filter: drop-shadow(0 1px 2px #0002);
-            }
-            .other-team-list {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 18px;
-                justify-content: center;
-                margin-top: 12px;
-            }
-            .other-team-member {
-                background: #22304a;
-                border-radius: 10px;
-                padding: 8px 16px;
-                color: var(--white);
-                font-size: 1.1rem;
-                display: flex;
-                align-items: center;
-                gap: 8px;
-                margin-bottom: 4px;
-            }
-            .badge {
-                display: inline-block;
-                padding: 2px 8px;
-                border-radius: 8px;
-                font-size: 0.85em;
-                font-weight: 700;
-                margin-left: 4px;
-            }
-            .badge-teaching {
-                background: #1fd1f9;
-                color: #22304a;
-            }
-            .badge-outreach {
-                background: #38e8ff;
-                color: #22304a;
-            }
-            .badge-development {
-                background: #2956a3;
-                color: #fff;
-            }
-            .other-team-title {
-                margin: 40px 0 16px 0;
-                font-size: 1.3rem;
-                color: var(--accent);
-                font-weight: 700;
-                text-align: center;
-            }
-        </style>
-        <div class="other-team-list">
-            <div class="other-team-member">
-                <span class="other-team-name">Abeer Singh</span>
-                <span class="badge badge-teaching">Teaching</span>
-                <span class="badge badge-outreach">Outreach</span>
+    </div>
+    <div class="team-section" data-aos="fade-up" data-aos-duration="1200">
+        <div class="team-title" data-aos="fade-down" data-aos-delay="100">
+            Meet Our Team
+        </div>
+        <div class="team-grid" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+                <div class="team-photo">
+                    <img src="images/team/arjun.webp" alt="Arjun Agarwal" />
+                </div>
+                <div class="team-name">Arjun Agarwal</div>
+                <div class="team-role">Co-President</div>
             </div>
-            <div class="other-team-member">
-                <span class="other-team-name">Atiksh Jha</span>
-                <span class="badge badge-teaching">Teaching</span>
-                <span class="badge badge-development">Development</span>
+            <div class="team-member">
+                <div class="team-photo">
+                    <img src="images/team/akshat.webp" alt="Akshat Mehta" />
+                </div>
+                <div class="team-name">Akshat Mehta</div>
+                <div class="team-role">Co-President</div>
             </div>
-            <div class="other-team-member">
-                <span class="other-team-name">Shreyash Thotamsetty</span>
-                <span class="badge badge-teaching">Teaching</span>
+            <div class="team-member">
+                <div class="team-photo">
+                    <img src="https://placehold.co/96x96?text=MS" alt="Milav Shah" />
+                </div>
+                <div class="team-name">Milav Shah</div>
+                <div class="team-role">Director of Technology</div>
             </div>
-            <div class="other-team-member">
-                <span class="other-team-name">Adi Varshney</span>
-                <span class="badge badge-teaching">Teaching</span>
-                <span class="badge badge-development">Development</span>
-            </div>
-            <div class="other-team-member">
-                <span class="other-team-name">Shiven Mehta</span>
-                <span class="badge badge-teaching">Teaching</span>
-                <span class="badge badge-outreach">Outreach</span>
-            </div>
-            <div class="other-team-member">
-                <span class="other-team-name">Bragadeshwaran KK</span>
-                <span class="badge badge-teaching">Teaching</span>
-                <span class="badge badge-outreach">Outreach</span>
-            </div>
-            <div class="other-team-member">
-                <span class="other-team-name">Shaurya Suresh</span>
-                <span class="badge badge-outreach">Outreach</span>
+            <div class="team-member">
+                <div class="team-photo">
+                    <img src="images/team/pranshu.webp" alt="Pranshu Desai" />
+                </div>
+                <div class="team-name" style="display: flex; align-items: center; gap: 6px">
+                    Pranshu Desai
+                </div>
+                <div class="team-role">Director of Teaching</div>
+                <span class="star-tooltip">
+                    <svg width="18" height="18" viewBox="0 0 20 20" fill="#FFD700" style="vertical-align: middle">
+                        <polygon
+                            points="10,2 12.4,7.5 18.3,7.6 13.6,11.6 15.2,17.3 10,14 4.8,17.3 6.4,11.6 1.7,7.6 7.6,7.5" />
+                    </svg>
+                    <span class="star-tooltip-text">April 2025 Member of the Month</span>
+                </span>
             </div>
 
-            <!-- Add more as needed -->
+            <div class="team-member">
+                <div class="team-photo">
+                    <img src="https://placehold.co/96x96?text=RS" alt="Runbier Sabhlok" />
+                </div>
+                <div class="team-name">Runbier Sabhlok</div>
+                <div class="team-role">Director of Communications</div>
+            </div>
+            <div class="team-member">
+                <div class="team-photo">
+                    <img src="https://placehold.co/96x96?text=RH" alt="Pranshu Desai" />
+                </div>
+                <div class="team-name">Rohan Hota</div>
+                <div class="team-role">Director of Marketing</div>
+            </div>
         </div>
-        <br />
-        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-        <script>
-            AOS.init({ once: true });
-        </script>
-        <script>
-            // Hamburger menu toggle
-            const hamburgerBtn = document.getElementById("hamburger-btn");
-            const hamburgerMenu = document.getElementById("hamburger-menu");
-            hamburgerBtn.addEventListener("click", function () {
-                hamburgerMenu.classList.toggle("open");
-            });
-            // Optional: close menu when clicking outside
-            document.addEventListener("click", function (e) {
-                if (
-                    !hamburgerBtn.contains(e.target) &&
-                    !hamburgerMenu.contains(e.target)
-                ) {
-                    hamburgerMenu.classList.remove("open");
-                }
-            });
-        </script>
-    </body>
+    </div>
+    <!-- Additional Team Members -->
+    <style>
+        .star-tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .star-tooltip-text {
+            visibility: hidden;
+            width: max-content;
+            background: #222c3a;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 6px 12px;
+            position: absolute;
+            z-index: 10;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.2s;
+            font-size: 0.95em;
+            white-space: nowrap;
+            box-shadow: 0 2px 8px rgba(30, 60, 114, 0.18);
+        }
+
+        .star-tooltip:hover .star-tooltip-text,
+        .star-tooltip:focus .star-tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .star-tooltip svg {
+            margin-bottom: 1px;
+            filter: drop-shadow(0 1px 2px #0002);
+        }
+
+        .other-team-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            justify-content: center;
+            margin-top: 12px;
+        }
+
+        .other-team-member {
+            background: #22304a;
+            border-radius: 10px;
+            padding: 8px 16px;
+            color: var(--white);
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 4px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            font-weight: 700;
+            margin-left: 4px;
+        }
+
+        .badge-teaching {
+            background: #1fd1f9;
+            color: #22304a;
+        }
+
+        .badge-outreach {
+            background: #38e8ff;
+            color: #22304a;
+        }
+
+        .badge-development {
+            background: #2956a3;
+            color: #fff;
+        }
+
+        .other-team-title {
+            margin: 40px 0 16px 0;
+            font-size: 1.3rem;
+            color: var(--accent);
+            font-weight: 700;
+            text-align: center;
+        }
+    </style>
+    <div class="other-team-list">
+        <div class="other-team-member">
+            <span class="other-team-name">Abeer Singh</span>
+            <span class="badge badge-teaching">Teaching</span>
+            <span class="badge badge-outreach">Outreach</span>
+        </div>
+        <div class="other-team-member">
+            <span class="other-team-name">Atiksh Jha</span>
+            <span class="badge badge-teaching">Teaching</span>
+            <span class="badge badge-development">Development</span>
+        </div>
+        <div class="other-team-member">
+            <span class="other-team-name">Shreyash Thotamsetty</span>
+            <span class="badge badge-teaching">Teaching</span>
+        </div>
+        <div class="other-team-member">
+            <span class="other-team-name">Adi Varshney</span>
+            <span class="badge badge-teaching">Teaching</span>
+            <span class="badge badge-development">Development</span>
+        </div>
+        <div class="other-team-member">
+            <span class="other-team-name">Shiven Mehta</span>
+            <span class="badge badge-teaching">Teaching</span>
+            <span class="badge badge-outreach">Outreach</span>
+        </div>
+        <div class="other-team-member">
+            <span class="other-team-name">Bragadeshwaran KK</span>
+            <span class="badge badge-teaching">Teaching</span>
+            <span class="badge badge-outreach">Outreach</span>
+        </div>
+        <div class="other-team-member">
+            <span class="other-team-name">Shaurya Suresh</span>
+            <span class="badge badge-outreach">Outreach</span>
+        </div>
+
+        <!-- Add more as needed -->
+    </div>
+    <br />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
+    <script>
+        // Hamburger menu toggle
+        const hamburgerBtn = document.getElementById("hamburger-btn");
+        const hamburgerMenu = document.getElementById("hamburger-menu");
+        hamburgerBtn.addEventListener("click", function () {
+            hamburgerMenu.classList.toggle("open");
+        });
+        // Optional: close menu when clicking outside
+        document.addEventListener("click", function (e) {
+            if (
+                !hamburgerBtn.contains(e.target) &&
+                !hamburgerMenu.contains(e.target)
+            ) {
+                hamburgerMenu.classList.remove("open");
+            }
+        });
+    </script>
+</body>
+
 </html>
